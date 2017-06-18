@@ -443,7 +443,7 @@ filter:grayscale(0%);
   text-decoration: none;
   color: white;
 }
-@media only screen and (max-width:1350px)
+@media only screen and (max-width:786px)
 {
 .body,.html,*
 {
