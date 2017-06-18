@@ -131,7 +131,7 @@ top: -5vh;
   width: 35vw;
   position: absolute;
   right: -14vw;
-  height: 83vh;
+  height: 77vh;
 }
 /*achievement*/
 .achieve
@@ -166,7 +166,6 @@ top: -5vh;
 }
 .margin-care img
 { position: relative;
-  margin-top: -40vh;
 }
 .top_magrin_care img
 {
@@ -232,4 +231,9 @@ top: -5vh;
   .work
   {
     height:35vh;
+  }
+  .pic img
+  {
+    height:60vh;
+  }
 }
