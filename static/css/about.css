@@ -136,7 +136,7 @@ p.bio
 }
 .pic
 {
-  position: absolute;
+ position:relative;
   right: 20vw;
   z-index: -1;
 }
@@ -147,7 +147,6 @@ p.bio
   position: absolute;
   right: -14vw;
   height: 83vh;
-  z-index: -9;
 }
 /*achievement*/
 .achieve
