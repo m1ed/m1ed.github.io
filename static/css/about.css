@@ -171,7 +171,7 @@ top: -5vh;
 {
   margin-top: 4vh;
 }
-@media only screen  and  (max-width:1350px)
+@media only screen  and  (max-width:786px)
 {
   .back{
     width: 15vw;
