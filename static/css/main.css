@@ -86,7 +86,7 @@ body
 }
 .box
 { position: absolute;
-  width: 30vw;
+  width: 20vw;
   height: 30vh;
   border:1px solid white;
   margin-left:44.8vw;
@@ -99,7 +99,7 @@ body
   margin:0 auto;
   color: white;
   font-size: 6em;
-  width: 18vw;
+  width: 25vw;
 }
 .the_born_engineer
 { display: flex;
