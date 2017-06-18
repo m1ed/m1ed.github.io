@@ -16,7 +16,237 @@ body
 .work div img
 {
   filter: grayscale(0%);
+  height: 50vh@import url('https://fonts.googleapis.com/css?family=Roboto');
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+body
+{ font-family: Roboto;
+  background-color: #222;
+  overflow-x: hidden;
+    background-image: url('../static/images/frontview/mied.jpg');
+}
+.work
+{
+  justify-content: none;
+}
+.work div img
+{
+  filter: grayscale(0%);
   height: 50vh;
+  margin:20px 0px;
+}
+.back
+{
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
+  transition: all 0.3s;
+  z-index: 10;
+}
+.back a
+{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.back:hover
+{
+  width: 15vw;
+}
+.tagline
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*border: 2px solid white;*/
+  /*border-bottom: 4px solid white;*/
+  margin: auto;
+  color: red;
+}
+.tagline p
+{ margin: auto;
+  font-size: 3em;
+  color: red;
+}
+p.border_tagline
+{
+  width: 15vw;
+  margin: auto;
+  background: white;
+  height: 3px;
+  transition: all 0.3s;
+}
+.tagline:hover >p.border_tagline
+{
+  width: 15vw;
+}
+.info-cotainer
+{
+  height: auto;
+  width: 96vw;
+  margin: 15vh auto;
+  display: flex;
+}
+.person
+{ background: #222;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  color: red;
+}
+.name
+{ padding: 0px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  font-size: 1.5em;
+  justify-content: center;
+
+}
+#name
+{
+  text-align: center;
+}
+p.bottom
+{
+  margin: 2px auto;
+  height: 3px;
+  background: white;
+  width: 0%;
+  transition: all 0.3s;
+}
+.info-cotainer:hover p.bottom
+{
+  width: 50%;
+}
+p.bio
+{ padding: 40px 0px;
+  width: 70%;
+  color: white;
+  text-align: left;
+  padding-right: 10px;
+}
+.pic
+{
+  position: absolute;
+  right: 20vw;
+  z-index: -1;
+}
+
+.pic  img
+{ top: -9.8vh;
+  width: 35vw;
+  position: absolute;
+  right: -14vw;
+  height: 83vh;
+  z-index: -9;
+}
+/*achievement*/
+.achieve
+{
+  color: red;
+}
+/*slider*/
+.achievement
+{ display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 4vh;
+  flex-wrap: wrap;
+}
+.item
+{ width:32%;
+  height: auto;
+  margin: 0px auto;
+
+}
+.item img
+{ width: 95%;
+  margin: 0px 2.5%;
+  background: red;
+  height: auto;
+  filter: grayscale(100%);
+    transition: all 0.4s;
+}
+.item img:hover
+{
+  filter: grayscale(0%);
+}
+.margin-care img
+{ position: relative;
+  margin-top: -40vh;
+}
+.top_magrin_care img
+{
+  margin-top: 4vh;
+}
+@media only screen  and  (max-width:786px)
+{
+  .back{
+    width: 15vw;
+  }
+  .margin-care img
+  {
+    margin-top: 0px;
+  }
+  .top_magrin_care img
+  {
+    margin-top: 0px;
+  }
+  .item{
+    width: 48%;
+  }
+  .item img
+  { width: 100%;
+    filter: grayscale(0%);
+  }
+  .info-cotainer
+  {
+    flex-direction: column;
+  }
+  #name
+  { margin-left: 2vw;
+    text-align: left;
+    position: relative;
+  }
+  .person
+  {
+    flex-direction: column;
+    width: 96vw;
+    justify-content: center;
+  }
+  .bio
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+  .pic
+  {
+    z-index: 20;
+  }
+  .pic  p   img
+  {
+    width: 30vw;
+    height: 30vh;
+  }
+  .media_check img
+  {
+    margin-top: -125px !important;
+  }
+  .media_check2 img
+  {
+    margin-top: -110px !important;
+  }
+}
+
   margin:20px 0px;
 }
 .back
