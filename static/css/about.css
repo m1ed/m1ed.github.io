@@ -223,10 +223,13 @@ top: -5vh;
   }
   .media_check img
   {
-    margin-top: -125px !important;
+    margin-top: 0px !important;
   }
   .media_check2 img
   {
-    margin-top: -110px !important;
+    margin-top: 0px !important;
   }
+  .work
+  {
+    height:35vh;
 }
