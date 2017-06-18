@@ -482,12 +482,13 @@ filter:grayscale(0%);
   height: 50vh;
 }
 .name
-{ width:50vw;
+{ width:60vw;
   font-size: 4em;
 }
 .box
 {
   width: 40vw;
+  height:30vh
 }
 .about
 { height: auto;
