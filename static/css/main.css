@@ -94,14 +94,18 @@ body
 }
 .name
 { background-color: red;
+  display: flex;
+  justify-content: center;
   margin:0 auto;
   color: white;
   font-size: 6em;
+  width: 18vw;
 }
 .the_born_engineer
-{
-  margin-left: 45vw;
+{ display: flex;
+  justify-content: center;
   color: white;
+  z-index: 20;
   font-size: 2em;
 }
 /* work here */
@@ -399,7 +403,7 @@ filter:grayscale(0%);
 }
 .address img
 { margin-right: 20px;
-  height: 80px;
+  height: 16%;
   width: 10%;
 }
 .rights
@@ -412,7 +416,7 @@ filter:grayscale(0%);
   background-color: #999;
 }
 #social
-{
+{ justify-content: center;
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -469,16 +473,16 @@ filter:grayscale(0%);
 { margin-bottom: 4vh;
   display: flex;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
 }
 .right
 {
   display: flex;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
 }
 .name
-{
+{ width:50vw;
   font-size: 4em;
 }
 .box
