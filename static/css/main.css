@@ -123,7 +123,7 @@ body
   background-color: rgba(163,163,163,1 );
 }
 .left
-{
+{ max-height:60vw;
   width: 49%;
 }
 .left a
@@ -139,6 +139,7 @@ body
 .right
 {  display: flex;
   width: 49%;
+  max-height:60vw;
   flex-wrap: wrap;
   overflow: hidden;
   position: relative;
@@ -489,7 +490,7 @@ filter:grayscale(0%);
 { position:relative;
   top:-10vh;
   width: 40vw;
-  height:30vh;
+  max-height:50vw;
 }
 .about
 { height: auto;
