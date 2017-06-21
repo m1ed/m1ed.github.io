@@ -584,14 +584,14 @@ filter:grayscale(0%);
   {
    height:70px;
   }
-  .left
+  .left,.right
   {
-    height:240px;
+    height:200px;
   }
   .one,.two,.three,.four
   {
     
-    height:120px;
+    height:100px;
   }
   .address img
   {
@@ -614,14 +614,14 @@ filter:grayscale(0%);
   {
    height:70px;
   }
-  .left
+  .left,.right
   {
-    height:150px;
+    height:200px;
   }
   .one,.two,.three,.four
   {
     
-    height:75px;
+    height:100px;
   }
   .address img
   {
