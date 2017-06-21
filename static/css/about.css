@@ -119,28 +119,9 @@ p.bio
 }
 .pic
 {
-  position: relative;
+position: relative;
 z-index: -1;
-height: 40vh;
-width: 30vw;
-top: -5vh;
-
 }
-
-.pic  img
-{ top: -9.8vh;
-  width: 35vw;
-  position: absolute;
-  right: -14vw;
-  height: 77vh;
-}
-.pic p img{
-     width: 80vw;
-     height: auto;
-     position: relative;
-     top: 0;
-     right: 0;
-   }
 p.bio{
     display: block;
     margin: 10px auto;
@@ -251,10 +232,7 @@ right: 0vw;
   {
     height:35vh;
   }
-  .pic img
-  {
-    height:60vh;
-  }
+  
 }
 
 @media (max-width: 768px){
@@ -284,9 +262,10 @@ right: 0vw;
   }
   .pic img
   {position:relative;
-    margin:0px auto;
+    margin:auto;
     padding:0px;
     height:350px;
-    width:200px;
+    width:300px;
+    z-index:-1;  
   }
   }  
