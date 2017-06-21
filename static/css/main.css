@@ -554,4 +554,15 @@ filter:grayscale(0%);
   margin: auto;
 }
 }
+@media(max-width: 768px){
+  .box{
+    max-height: 160px;
+    top: 40px;
+    height: 30vh;
+    min-height: 72px;
+  }
+ .header{
+    position: relative;
+  }
+}
 /*media query ends*/
