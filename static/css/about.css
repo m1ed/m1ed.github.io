@@ -121,7 +121,7 @@ p.bio
 {
 position: relative;
 z-index: -1;
-}
+margin:auto;}
 p.bio{
     display: block;
     margin: 10px auto;
