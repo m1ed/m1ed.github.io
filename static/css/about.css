@@ -147,6 +147,11 @@ p.bio{
     text-align: justify;
     width: 80vw
   }
+.pic img
+{width: 30vw;
+z-index: -1;
+right: 0vw;
+}
 /*achievement*/
 .achieve
 {
