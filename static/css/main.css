@@ -554,6 +554,14 @@ filter:grayscale(0%);
   width: auto;
   margin: auto;
 }
+  
+   .name
+  {margin-top:-15vh;
+  }
+  .tags
+  {
+    flex-direction:row;
+  }
 }
 @media(max-width: 768px){
   .box{
@@ -564,6 +572,14 @@ filter:grayscale(0%);
   }
  .header{
     position: relative;
+  }
+  
+   .name
+  {margin-top:-15vh;
+  }
+  .tags
+  {
+    flex-direction:row;
   }
 }
 /*media query ends*/
@@ -579,7 +595,13 @@ filter:grayscale(0%);
     and (aspect-ratio : 375/559)
     and (device-pixel-ratio : 2)
     and (-webkit-min-device-pixel-ratio : 2)
-{  
+{  .name
+  {margin-top:-15vh;
+  }
+  .tags
+  {
+    flex-direction:row;
+  }
   .box
   {
    height:70px;
@@ -609,6 +631,13 @@ filter:grayscale(0%);
     and (min-resolution: 326dpi) 
 {   .left
   {width:100%
+  }
+   .name
+  {margin-top:-15vh;
+  }
+  .tags
+  {
+    flex-direction:row;
   }
   .box
   {
