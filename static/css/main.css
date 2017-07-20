@@ -557,3 +557,2349 @@ filter:grayscale(0%);
 }
 }
 /*media query ends*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+{
+.body,.html,*
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  flex-direction: column;
+  height: auto;
+}
+.logo
+{ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tags
+{
+  display: flex;
+  flex-direction: column
+  z-index: 100;
+}
+.work
+{
+  height: auto;
+}
+.left
+{ margin-bottom: 4vh;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.right
+{
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+.name
+{ width:50vw;
+  font-size: 4em;
+}
+.box
+{
+  width: 40vw;
+}
+.about
+{ height: auto;
+  overflow-y: none;
+}
+.image_user img
+{
+  height: auto;
+  overflow-y: none;
+}
+.about_hover
+{ font-size: 2em;
+  top:30%;
+  left: 35%;
+}
+.cover p
+{
+  font-size: 1em;
+}
+.footer
+{ width: 100vw;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.address
+{ display:
+  justify-content: center;
+  width: 100vw;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+}
+.fa
+{ margin: auto;
+}
+.address img
+{
+  height: 10%;
+  width: 15%;
+}
+#social
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h2
+{
+  width: 40vw;
+  margin: auto;
+}
+#social p
+{ text-align: center;
+  width: auto;
+  margin: auto;
+}
+}
+
